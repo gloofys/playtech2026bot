@@ -26,7 +26,9 @@ The command line argument is the initial ebucks budget.
 
 ## Notes
 
-- The bot communicates only via stdin/stdout as required by the assignment.
-- Logging, if enabled, goes to stderr.
-- The current category choice in the source is `Video Games`.
-- This repository contains only the bot source code. To reproduce results or evaluate performance, run it with the Playtech assignment test harness.
+- The bot follows the stdin/stdout protocol described in the assignment.
+- Logging, if enabled, is written to stderr.
+- The bot uses no additional threads and no external file or socket access.
+- The selected advertising category is currently hardcoded as `Video Games`.
+- This repository contains only the bot source code.
+- Performance can be evaluated using the Playtech test harness.
